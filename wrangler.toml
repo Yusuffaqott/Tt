@@ -1,0 +1,6 @@
+name = "uh-ohhh-404"
+compatibility_date = "2025-12-01"
+pages_build_output_dir = "frontend/build"
+
+[build]
+command = "cd frontend && yarn install --frozen-lockfile && yarn build"
